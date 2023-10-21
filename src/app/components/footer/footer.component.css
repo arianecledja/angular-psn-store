@@ -1,0 +1,37 @@
+.conteiner-footer {
+    background-color: #fff;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.conteiner-footer__links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.conteiner-footer__links__institutional > ul > li,
+.conteiner-footer__links__social-media > ul > li {
+    margin: 1rem;
+    font-size: large;
+    transition: ease-in-out .3s;
+}
+
+.conteiner-footer__links__institutional > ul > li > a:hover ,
+.conteiner-footer__links__social-media > ul > li > a:hover {
+    color: rgba(82, 106, 243, 0.5);
+}
+
+.conteiner-footer__copyright {
+    color: blue;
+    text-align: center;
+}
